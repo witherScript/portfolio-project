@@ -1,0 +1,13 @@
+
+body {
+  background: radial-gradient(#e66465, #9198e5);
+  height: 100vh;
+}
+
+#landing-content{
+  display: flex;
+  flex-direction: column;
+  border: solid 1px white;
+  justify-content: center;
+  align-items: center;
+}
