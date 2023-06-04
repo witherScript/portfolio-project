@@ -1,10 +1,12 @@
 
+/* Base Styling */
 body {
   background: radial-gradient(#e66465, #9198e5);
   height: 100vh;
   padding-top: 65px;
 }
 
+/* Center items in the Header, set background color */
 #landing-content{
   background-color: radial-gradient(#9198e5, #e66465);
   display: flex;
@@ -19,44 +21,15 @@ body {
   margin-bottom: 0;
 }
 
+
+/* Set picture size and shape */
 #self{
   width: 200px;
   border-radius: 50%;
   margin: 1rem;
 }
-.navbar {
-  position: fixed;
-  border-radius: 0 0 10px 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #9198e5;
-  padding: 0 2rem;
-  top: 0;
-  width: 100%;
-}
 
-.nav-item {
-  font-size: 1.5rem;
-  background-color: #9198e5;
-  color: black;
-  margin: 0 .25rem;
-  justify-content: space-between;
-  padding: 0.5rem 0.5rem;
-}
-
-.nav-item:hover {
-  background-color: #e66465;
-  color: #9198e5;
-  border-radius: 10px;
-}
-
-.nav-item a {
-  text-decoration: none;
-  color: black;
-}
-
-
+/* Center about-me text using the flex-box model */
 #about-me {
   display: flex;
   flex-direction: column;
@@ -69,6 +42,7 @@ body {
 #about-me h2 {
   font-size: 2rem;
   margin: 1rem;
+  border-bottom: 2px solid black;
 }
 
 
@@ -88,7 +62,10 @@ body {
   color: black;
 }
 
-#projects {
+/*
+Center portfolio text using the flex-box model
+*/
+#portfolio {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -97,7 +74,8 @@ body {
   padding: 2rem;
 }
 
-#projects h2 {
+#portfolio h2 {
   font-size: 2rem;
   margin: 1rem;
+  border-bottom: 2px solid black;
 }
