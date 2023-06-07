@@ -1,10 +1,11 @@
 
-#Genesis Scott Portfolio Site# 
+#Genesis Scott Portfolio Site
+
 1. **Author:** Genesis Scott
 2. **Description:** A portfolio website formatted with CSS and Bootstrap 5.4
 3. **Site Link:**
 
-##Technologies Used:##
+##Technologies Used:
 - HTML
 - CSS
 - Git
@@ -14,7 +15,7 @@
 1. Follow link above to view site and interact with its components
 
 
-###Known Bugs###
+##Known Bugs
 - N/A
 
 
