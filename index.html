@@ -9,6 +9,29 @@
   <title>Genesis Scott Professional Portfolio</title>
 </head>
 <body>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#landing-content">Genesis Scott</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span> 
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a href="#about-me" class="nav-link">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   <!--Header content-->
   <div class="conatiner-fluid" id="landing-content">
     <h1>Genesis Scott</h1>
@@ -64,6 +87,33 @@
         </div>
       </div>
 
+    <!--Contact section-->
+    <div id="portfolio">
+      <h2>Contact</h2>
+      <div class="container-fluid">
+        <form action="mailto:chandlerscott123@gmail.com">
+          <!--ul-->
+          <ul class="list-group">
+            <li class="list-group-item">
+              <label for="name" class="list-group-item-text">Name:</label>
+              <input type="text" name="name" id="name" placeholder="Enter your name">
+            </li>
+            <li class="list-group-item">
+              <label for="email" class="list-group-item-text">Email:</label>
+              <input type="email" name="email" id="email" placeholder="Enter your email">
+            </li>
+            <li class="list-group-item">
+              <div style="display: none;">
+                <label for="honeypot">Don't fill this out if you're human:</label>
+                <input type="text" name="honeypot" id="honeypot" />
+              </div>
+              <label for="message" class="list-group-item-text">Message:</label>
+              <textarea name="message" id="message" cols="10" rows="4" placeholder="Enter your message"></textarea>
+            </li>
+          </ul>
+          
+          <input type="submit" value="Submit">
+        </form>
 
 </body>
 </html>
