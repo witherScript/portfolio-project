@@ -31,7 +31,7 @@ body {
 
 /* Center about-me text using the flex-box model */
 
-#about-me h2 {
+.heading {
   font-size: 2rem;
   margin: 1rem;
   border-bottom: 2px solid black;
@@ -49,10 +49,6 @@ body {
   margin: 1rem;
 }
 
-#about-me a {
-  text-decoration: none;
-  color: black;
-}
 
 /*
 Center portfolio text using the flex-box model
@@ -66,8 +62,3 @@ Center portfolio text using the flex-box model
   padding: 2rem;
 }
 
-#portfolio h2 {
-  font-size: 2rem;
-  margin: 1rem;
-  border-bottom: 2px solid black;
-}
