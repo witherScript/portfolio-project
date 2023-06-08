@@ -30,14 +30,6 @@ body {
 }
 
 /* Center about-me text using the flex-box model */
-#about-me {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #9198e5;
-  padding: 2rem;
-}
 
 #about-me h2 {
   font-size: 2rem;
@@ -65,7 +57,7 @@ body {
 /*
 Center portfolio text using the flex-box model
 */
-#portfolio {
+.section {
   display: flex;
   flex-direction: column;
   justify-content: center;
