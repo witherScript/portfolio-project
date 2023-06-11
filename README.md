@@ -20,7 +20,7 @@
 
 
 
-Copyright <2023> <Genesis Scott>
+Copyright (2023). <Genesis Scott>
 
 MIT License.
 
