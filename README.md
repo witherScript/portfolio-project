@@ -11,7 +11,7 @@
 - Git
 - Bootstrap
 
-## Setup instructions**
+## Setup instructions
 1. Follow link above to view site and interact with its components
 
 
